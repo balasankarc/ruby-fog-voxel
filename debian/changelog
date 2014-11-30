@@ -1,4 +1,4 @@
-ruby-fog-voxel (0.0.1-1) unstable; urgency=medium
+ruby-fog-voxel (0.0.1-1) experimental; urgency=medium
 
   * Initial release (Closes: #771540)
 
