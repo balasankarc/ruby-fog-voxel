@@ -1,5 +1,5 @@
-ruby-fog-voxel (0.0.1-1) UNRELEASED; urgency=medium
+ruby-fog-voxel (0.0.1-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #771540)
 
- -- Balasankar C <balasankarc@autistici.org>  Sun, 30 Nov 2014 21:08:09 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Sun, 30 Nov 2014 20:38:55 +0530

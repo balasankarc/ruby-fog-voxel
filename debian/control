@@ -3,19 +3,27 @@ Section: ruby
 Priority: optional
 Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
 Uploaders: Balasankar C <balasankarc@autistici.org>
-Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec, rake
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec, rake, ruby-fog-core, ruby-fog-xml, ruby-shindo
+Standards-Version: 3.9.6
 Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fog-voxel.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-fog-voxel.git;a=summary
-Homepage: 
-Testsuite: autopkgtest
+Homepage: https://github.com/fog/fog-voxel
+Testsuite: autopkgtest-pkg-ruby
 XS-Ruby-Versions: all
 
 Package: ruby-fog-voxel
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
-Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
-# fog-core (>= 0), fog-xml (>= 0), rake (>= 0, development), minitest (>= 0, development), shindo (>= 0, development), turn (>= 0, development), pry (>= 0, development), coveralls (>= 0, development), rubocop (>= 0, development)
-Description: Module for the 'fog' gem to support Voxel.
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-fog-core, ruby-fog-xml
+Description: module for the 'fog' gem to support Voxel
  This library can be used as a module for `fog` or as standalone provider
- to use the Voxel in applications.
+ to use the Voxel in applications. fog is the Ruby cloud services library, 
+ top to bottom:
+ .
+  *Collections provide a simplified interface, making clouds easier to work with 
+  and switch between.
+ .
+  *Requests allow power users to get the most out of the features of each 
+  individual cloud.
+ .
+  *Mocks make testing and integrating a breeze.
