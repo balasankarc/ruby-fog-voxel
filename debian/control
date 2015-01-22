@@ -15,6 +15,8 @@ Package: ruby-fog-voxel
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-fog-core, ruby-fog-xml
+Breaks: ruby-fog (<< 2.5~)
+Replaces: ruby-fog (<< 2.5~)
 Description: module for the 'fog' gem to support Voxel
  This library can be used as a module for `fog` or as standalone provider
  to use the Voxel in applications. fog is the Ruby cloud services library, 
