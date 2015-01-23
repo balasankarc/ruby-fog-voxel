@@ -1,3 +1,9 @@
+ruby-fog-voxel (0.0.2-1) experimental; urgency=medium
+
+  * Upstream update
+
+ -- Balasankar C <balasankarc@autistici.org>  Fri, 23 Jan 2015 12:35:31 +0530
+
 ruby-fog-voxel (0.0.1-2) experimental; urgency=medium
 
   * Break and replace ruby-fog (<< 0.25~)
