@@ -1,8 +1,14 @@
+ruby-fog-voxel (0.0.2-1.1) unstable; urgency=medium
+
+  * Team upload
+  * Re-upload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 12 May 2015 08:43:34 +0530
+
 ruby-fog-voxel (0.0.2-1) experimental; urgency=medium
 
   * Upstream update
   * Break and replace ruby-fog << 1.25~ (Closes: #774973)
-
 
  -- Balasankar C <balasankarc@autistici.org>  Fri, 23 Jan 2015 12:35:31 +0530
 
